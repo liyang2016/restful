@@ -1,4 +1,4 @@
-package com.example;
+package com.leon.resource;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

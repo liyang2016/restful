@@ -1,4 +1,4 @@
-package com.example;
+package com.leon.main;
 
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
@@ -22,7 +22,7 @@ public class Main {
     public static HttpServer startServer() {
         // create a resource config that scans for JAX-RS resources and providers
         // in com.example package
-        final ResourceConfig rc = new ResourceConfig().packages("com.example");
+        final ResourceConfig rc = new ResourceConfig().packages("com.leon.resource");
 
         // create and start a new instance of grizzly http server
         // exposing the Jersey application at BASE_URI
@@ -39,7 +39,7 @@ public class Main {
         System.out.println(String.format("Jersey app started with WADL available at "
                 + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
         System.in.read();
-        server.stop();
+        server.shutdown();
     }
 }
 

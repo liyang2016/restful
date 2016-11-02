@@ -1,4 +1,4 @@
-package com.leon;
+package com.leon.device;
 
 import java.util.concurrent.ConcurrentHashMap;
 

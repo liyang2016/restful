@@ -1,4 +1,4 @@
-package com.leon;
+package com.leon.device;
 
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;

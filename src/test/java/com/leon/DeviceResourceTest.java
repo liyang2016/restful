@@ -12,7 +12,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.example.Main;
+import com.leon.device.Device;
+import com.leon.main.Main;
 
 public class DeviceResourceTest {
 	private HttpServer server;
